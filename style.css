@@ -1,0 +1,45 @@
+p {
+    width: 360px;
+    border: 3px solid red;
+}
+span {
+    border: 3px solid blue;
+}
+
+.block {
+    display: block;
+}
+
+.target {
+    width: 9000px;
+    height: 9000px;
+    padding: 3px;
+    border: 20px solid #fa7;
+}
+
+div {
+    border: 3px solid green;
+}
+
+#restricted {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+
+}
+div > p {
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+#enormous {
+    background-color: #000;
+    color: #fff;
+    height: 200px;
+
+}
